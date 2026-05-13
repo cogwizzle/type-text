@@ -1,0 +1,30 @@
+{
+  "name": "type-text",
+  "version": "1.0.0",
+  "description": "A web component that animates text content as if it is being typed one character at a time.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "web-component",
+    "custom-element",
+    "typewriter",
+    "typing",
+    "typing-animation",
+    "text-animation",
+    "html"
+  ],
+  "author": "Cogwizzle",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "happy-dom": "20.9.0",
+    "supertest": "7.2.2",
+    "vitest": "4.1.5"
+  }
+}
